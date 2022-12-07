@@ -38,12 +38,15 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+.navbar-dark{
+    background-color: #000000;
+}
 .nav-link {
-    color: #6b00d7 !important;
+    color: #ffffff !important
 }
 .nav-link:hover {
-    background-color: white !important;
-    color: #ffffff !important;
+    //background-color: #8c8cff !important;
+    color: #8080ff !important;
 }
 .imageAboutPage {
     object-fit: cover;
@@ -71,7 +74,7 @@
     border: 1px solid #008000;
 }
 .navbarScroll.navbarDark {
-    background-color: #c0c0c0;
+    background-color:rgba(0, 0, 0, 0.8);
 }
 /* social media icons styling */
 .social-icons {
@@ -86,6 +89,13 @@
 }
 /* footer styling */
 #footer {
-    background-color: #a9969f;
+    background-color: #8080ff;
     text-align: center;
+}
+.btn-success{
+    background-color: #8080ff !important;
+    border-color: #8080ff !important;
+}
+.card:hover .servicesIcon{
+    color: #8080ff !important;
 }
